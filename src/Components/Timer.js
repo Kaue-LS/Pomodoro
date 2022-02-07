@@ -32,9 +32,7 @@ export default function MyTimer({ hoursMinSecs }) {
 // ------------------------------------------------------
 
 
-  const starTimer = useCallback(
-
-    (tempo) => {
+  const starTimer = useCallback((tempo) => {
       setTimeout(() => {
         // Trabalho
         if (!intervalo) {
@@ -43,10 +41,12 @@ export default function MyTimer({ hoursMinSecs }) {
               setTempoTrabalho((tempo -= 1));
               formataTempo(tempo);
             } else if (tempo === 0) {
+              // Seo tempo for 0, vai dar play no som e trocar para o tempo de pausa
               const Despertador = new Audio(Despertador1)
               Despertador.play()
               setPause(true);
               setIntevalo(true);
+              // Apos trocar para a pausa vai reabastecer o tempo que foi zerado
               setTempoTrabalho(tempoTrabalho + TEMPO_TRABALHO);
             }
           } else {
@@ -76,6 +76,8 @@ export default function MyTimer({ hoursMinSecs }) {
     [intervalo, pause, tempoTrabalho, tempoPausa,TEMPO_PAUSA,TEMPO_TRABALHO]
   );
 
+
+  // Icone Verde
   const checkGreen = useCallback(
     (num) => {
       if (sessao.length === sessoes) {
@@ -97,6 +99,8 @@ export default function MyTimer({ hoursMinSecs }) {
   );
   // =============================================
 
+
+  // Icone Amarelo
   const checkYellow = useCallback(
     (num) => {
       if (sessao.length === sessoes) {
@@ -119,6 +123,7 @@ export default function MyTimer({ hoursMinSecs }) {
   // =================================
 
   useEffect(() => {
+    // Enquanto nao for terminado, ele vai executar o Timer
     if(!terminado){
     if (!intervalo) {
       starTimer(tempoTrabalho);
