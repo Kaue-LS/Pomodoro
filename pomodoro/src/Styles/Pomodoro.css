@@ -1,0 +1,56 @@
+
+:root{
+    --font-color:#a3a6b5;
+    --background-color:#3C4262;
+    --box-shadow:0px 3px 4px #1f212c ;
+    --border-radius:10px;
+    --align-center:center;
+    --justify-center:center;
+}
+#Header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 50px auto;
+    justify-content: space-between;
+    align-items: var(--align-center);
+}
+#Header h1{
+    font-size: 3rem;
+    color: var(--font-color);
+}
+
+#Header button{
+    display: flex;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+    border: none;
+    color: var(--font-color);
+    background-color: var(--background-color);
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 20px 50px;
+}
+
+
+
+
+/* ----------------------- */
+
+#TimerArea{
+    display: flex;
+    flex-direction: row;
+    justify-content: var(--justify-center);
+    align-items: var(--align-center);
+}
+
+
+@media (max-width:500px) {
+    #Header{
+        display: flex;
+        flex-direction: column;
+        justify-content: var(--justify-center);
+        align-items: var(--align-center);
+    }
+    }

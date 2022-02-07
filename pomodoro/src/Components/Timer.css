@@ -1,0 +1,142 @@
+:root{
+    --font-color:#a3a6b5;
+    --background-color:#3C4262;
+    --box-shadow:0px 3px 4px #1f212c ;
+    --border-radius:10px;
+    --align-center:center;
+    --justify-center:center;
+}
+
+#Timer{
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: var(--justify-center);
+    align-items: var(--align-center);
+}
+#TimerBox{
+    margin: 0 auto;
+    border-radius: 100%;
+    width: 350px;
+    height: 350px;
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: var(--justify-center);
+    align-items: var(--align-center);
+}
+
+#TimerCamp{
+    background-color:var(--background-color);
+    border: 5px solid;
+    height: 290px;
+    width: 290px;
+    display: flex;
+    justify-content: var(--justify-center);
+    align-items: var(--align-center);
+    border-radius: 100% ;
+}
+#TimerCamp span{
+    color: var(--font-color);
+    font-size: 6rem;
+    background-color:var(--background-color);
+}
+
+#TitleButtons{
+    display: flex;
+    flex-direction: column;
+    justify-content: var(--justify-center);
+    align-items: var(--align-center);
+    margin: -40px 5rem 0 5rem;
+}
+#Sessoes{
+    display: flex;
+    flex-direction: row;
+}
+.Sessao{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--background-color);
+    padding: 6px 6px;
+    margin: 10px 5px;
+    width: 10px;
+    border-radius: 100%;
+}
+.SessaoGreen{
+    display: flex;
+    flex-direction: row;
+    background-color: #219653;
+    padding: 5px 5px;
+    margin: 10px 5px;
+    width: 5px;
+    border-radius: 100%;
+}
+.Trabalho{
+    font-weight: 500;
+    font-size:4rem;
+    color: #219653;
+    border-color: #219653;
+}
+.Pausa{
+    font-size: 4rem;
+    color:#F2C94C;
+    border-color: #F2C94C;
+}
+
+#PlayPause{
+    margin: 15px 0;
+    font-size: 2rem;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    border-radius: var(--border-radius);
+    background-color: var(--background-color);
+    box-shadow: var(--box-shadow);
+}
+#PlayPause i{
+    color: var(--font-color);
+    background-color: var(--background-color);
+}
+
+#Terminado{
+    margin: 3rem auto;
+    padding: 1rem 1rem;
+    width: 34rem;
+    display: flex;
+    border-radius: var(--border-radius);
+    flex-direction: column;
+    box-shadow: var(--box-shadow);
+    justify-content: var(--justify-center);
+    align-items: var(--align-center);
+    background-color: var(--background-color);
+}
+#Terminado h2{
+    color: var(--font-color);
+    font-size: 3rem;
+}
+#Terminado p{
+    color: var(--font-color);
+    font-size: 1.5rem;
+    margin: 15px auto;
+}
+#Terminado button{
+    color: var(--font-color);
+    border:none;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    padding: 15px 20px;
+    font-size: 1.5rem;
+    font-size: 1.5rem;
+    margin: 15px auto;
+}
+
+@media (max-width:740px) {
+    #TitleButtons{
+        display: flex;
+        flex-direction: column;
+        justify-content: var(--justify-center);
+        align-items: var(--align-center);
+        margin: 0px 5rem 0 5rem;
+    }
+    }

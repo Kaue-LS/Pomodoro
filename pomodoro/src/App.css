@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:wght@700&display=swap');
+
+html,body,button{
+  font-family: 'Oswald', sans-serif;
+
+  font-family: 'Roboto', sans-serif;
+  background-color:  #333853;
+}
