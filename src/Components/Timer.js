@@ -47,7 +47,7 @@ export default function MyTimer({ hoursMinSecs }) {
               Despertador.play()
               setPause(true);
               setIntevalo(true);
-              setTempoTrabalho(tempoTrabalho + 2);
+              setTempoTrabalho(tempoTrabalho + TEMPO_TRABALHO);
             }
           } else {
             formataTempo(tempo);
@@ -65,7 +65,7 @@ export default function MyTimer({ hoursMinSecs }) {
               Despertador.play()
               setPause(true);
               setIntevalo(false);
-              setTempoPausa(tempoPausa + 2);
+              setTempoPausa(tempoPausa + TEMPO_PAUSA);
             }
           } else {
             formataTempo(tempo);
