@@ -1,52 +1,70 @@
-## Índice
+# Getting Started with Create React App
 
-* [Desafio](#desafio)
-* [Techs](#techs)
-* [Como começar](#como-começar)
-* [Dicas](#dicas)  
-  * [Cores](#cores)
-  * [Modelo](#modelo)
-  * [Imagens](#imagens)
-  * [Icones](#icones)
-  * [Tipo de fonte](#tipo-de-fonte)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
-# Desafio
-Seu desafio é criar um cronômetro que utiliza a técnica do pomodoro para ajudar na gestão de tempo! O modelo final está disponível na pasta "design"
+In the project directory, you can run:
 
-## Requisitos:
-- Sua página deverá uma tela inicial onde será possível configurar o tempo de trabalho, tempo de pausa e a quantidade de vezes que isso será feito.<br>
-- Por padrão, virá 25 minutos, 5 minutos e 3 vezes. Porém, o usuário poderá alterar esses dados clicando nas setas para cima ou baixo<br>
-- Após isso, o usuário poderá clicar em continuar e iniciar seu cronômetro
-- O usuário poderá pausar ou dar play no cronômetro
+### `npm start`
 
-### Requisitos bônus
-- Você poderá adicionar um círculo em volta do inicador de tempo, que será preenchido conforme o tempo vai chegando ao fim.
-- Você poderá adicionar um alerta sonoro quando o tempo acabar, para avisar o usuário
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-# Techs: 
-- HTML e CSS
-- Framework ou linguagem que preferir :)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-# Como começar:
-1 - Use esse template (clicando em Use this template) ou faça um fork deste repositório com o código inicial<br>
-2 - Leia as instruções no readme.md<br>
-3 - Comece a codar! Sinta-se livre para utilizar o fluxo de trabalho que ache mais confortável<br>
-4 - Compartilhe seu resultado com a comunidade! Se puder, mostre seus resultado aqui no repositório também, criando uma Issue :)<br>
+### `npm test`
 
-# Dicas
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Cores:
-Azul mais escuro: #333853<br>
-Azul mais claro: #3C4262<br>
-Verde: #219653<br>
-Amarelo: #F2C94C
+### `npm run build`
 
-## Modelo:
-O modelo final desktop está disponível na pasta `./design`
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Icones
-Para os ícones, recomendamos que utilize alguma biblioteca, como o Font Awesome
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Tipo de fonte:
-- Roboto
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
