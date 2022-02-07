@@ -73,7 +73,7 @@ export default function MyTimer({ hoursMinSecs }) {
         }
       }, 1000);
     },
-    [intervalo, pause, tempoTrabalho, tempoPausa]
+    [intervalo, pause, tempoTrabalho, tempoPausa,TEMPO_PAUSA,TEMPO_TRABALHO]
   );
 
   const checkGreen = useCallback(

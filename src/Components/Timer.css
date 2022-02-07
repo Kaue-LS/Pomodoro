@@ -102,7 +102,7 @@
 #Terminado{
     margin: 3rem auto;
     padding: 1rem 1rem;
-    width: 34rem;
+    width: 80%;
     display: flex;
     border-radius: var(--border-radius);
     flex-direction: column;
@@ -114,11 +114,15 @@
 #Terminado h2{
     color: var(--font-color);
     font-size: 3rem;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
 }
 #Terminado p{
     color: var(--font-color);
     font-size: 1.5rem;
     margin: 15px auto;
+    text-align: center;
 }
 #Terminado button{
     color: var(--font-color);
@@ -139,4 +143,5 @@
         align-items: var(--align-center);
         margin: 0px 5rem 0 5rem;
     }
+
     }
