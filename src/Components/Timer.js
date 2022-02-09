@@ -197,9 +197,9 @@ export default function MyTimer({ hoursMinSecs }) {
 
             <button id="PlayPause" onClick={() => setPause(!pause)}>
               {!pause ? (
-                <i className="fas fa-play"></i>
-              ) : (
                 <i className="fas fa-pause"></i>
+              ) : (
+                <i className="fas fa-play"></i>
               )}
             </button>
           </div>
